@@ -1,0 +1,17 @@
+{
+  "name": "gemini-example",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "gemini": "5.6.2",
+    "html-reporter": "2.15.0",
+    "selenium-standalone": "6.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gemini test",
+    "selenium": "selenium-standalone install && selenium-standalone start"
+  },
+  "author": "",
+  "license": "ISC"
+}
